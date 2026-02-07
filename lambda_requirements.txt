@@ -1,0 +1,12 @@
+# OpenTelemetry core packages for AWS Lambda
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+opentelemetry-exporter-otlp-proto-http>=1.20.0
+
+# OpenTelemetry instrumentation packages
+opentelemetry-instrumentation>=0.41b0
+opentelemetry-instrumentation-requests>=0.41b0
+opentelemetry-instrumentation-urllib>=0.41b0
+
+# Propagators for trace context
+opentelemetry-propagator-b3>=1.20.0

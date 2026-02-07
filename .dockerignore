@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Django specific (not needed in Lambda)
+bots/
+project/
+manage.py
+dump.rdb
+*.sqlite3
+
+# Selenium profiles (not needed in Lambda)
+selenium_profiles/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+*.md
+
+# Deployment artifacts
+lambda_package/
+*.zip
+deploy_lambda.sh
+
+# Test files
+test_*.py
